@@ -1,14 +1,24 @@
 .title {
   font-family: 'Gilda Display', serif;
   position: absolute;
-  top: 30px;
-  right: 160px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  top: 40px;
+  right: 130px;
   font-size: 50px;
   color: #6D5D4F;
   letter-spacing: 1px;
-  opacity: 0.85;
+  opacity: 0.80;
   text-align: right;
-  line-height: 1.2;
+  line-height: 1.15;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.subtitle {
+  position: relative;
+  right: 35px;
+  font-size: 32px;
 }
 
 #welcome-text { font-family: Mandali; font-size: 16px; 
